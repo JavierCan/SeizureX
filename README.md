@@ -62,7 +62,7 @@ In future releases, SeizureX will integrate advanced graphical tools to provide 
 
 ## Authors
 
-- Brianna Ayelén Balam Velasco
+- Brianna Ayelen Balam Velasco
 - Jesus Javier Can Noh
 - Mauricio Pacheco Lizama
 - Juan José Tec Tun
