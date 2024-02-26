@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seizure X: Epilepsy Prediction Tool</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        color: #333;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #557665;
+        text-align: center;
+      }
+      .logo {
+        display: block;
+        margin: auto;
+      }
+      form {
+        margin-top: 20px;
+      }
+      .description {
+        background-color: #e7e7e7;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 20px;
+        line-height: 1.6;
+      }
+      button {
+        background-color: #557665;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+      }
+      button:hover {
+        background-color: #466954;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="{{ url_for('static', filename='logo.png') }}"
+        alt="Logo"
+        #src="logo1.png"
+        alt="Seizure X logo"
+        class="logo"
+        style="width: 100px; height: auto"
+      />
+      <h1>Seizure X: Epilepsy Prediction Tool</h1>
+      <div class="description">
+        <p>
+          Seizure X is an advanced tool designed to predict epilepsy seizures.
+          By analyzing EEG data, Seizure X provides healthcare professionals
+          with actionable insights to aid in the management and treatment of
+          epilepsy. Quick and accurate predictions can enhance patient care and
+          improve outcomes.
+        </p>
+      </div>
+      <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required />
+        <button type="submit">Upload CSV and Predict</button>
+      </form>
+    </div>
+  </body>
+</html>
