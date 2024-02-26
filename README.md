@@ -44,7 +44,7 @@ Clone or download the SeizureX repository and build the Docker image with:
 
 Start the application with:
 
-docker run -p 5000:5000 seizurex_project
+    docker run -p 5000:5000 seizurex_project
 
 The application will be accessible at http://localhost:5000.
 
