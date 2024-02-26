@@ -65,4 +65,4 @@ In future releases, SeizureX will integrate advanced graphical tools to provide 
 - Brianna Ayelén Balam Velasco
 - Jesus Javier Can Noh
 - Mauricio Pacheco Lizama
-- Juan José Tech Tun
+- Juan José Tec Tun
