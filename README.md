@@ -36,7 +36,7 @@ The project contains the following files and directories:
 
 ### Environment Setup
 
-Clone or download the SeizureX repository and build the Docker image with:
+Clone or download the main branch of the SeizureX repository, access the directory, and build the Docker image with:
 
     docker build -t seizurex_project .
 
@@ -53,7 +53,7 @@ The application will be accessible at http://localhost:5000.
 SeizureX allows users to upload EEG data and use the machine learning model to predict the presence of seizures. Usage example:
 
 1. Access the web interface through http://localhost:5000.
-2. Upload the EEG data file using the provided user interface.
+2. Upload the EEG data file using the provided user interface (in this case you can use the data.csv file to execute).
 3. The system will process the data and provide a prediction on the likelihood of a seizure.
 
 ## Future Improvements
